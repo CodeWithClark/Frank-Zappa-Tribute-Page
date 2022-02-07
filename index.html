@@ -1,0 +1,164 @@
+<html>
+  <head>
+  <link rel="stylesheet" type="text/css" href="css/tribute.css">
+    <style>
+      .row {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 4px;
+
+      }
+
+      /* Create four equal columns that sits next to each other */
+      .column {
+        flex: 25%;
+        max-width: 25%;
+        padding: 0 4px;
+      }
+
+      .column img {
+        margin-top: 8px;
+        vertical-align: middle;
+        width: 100%;
+      }
+
+      h1 {
+        font-size: 60px;
+      }
+
+      h2 {
+        color: #D6CEE7;
+      }
+
+      .font-fam {
+        font-family: Futura-Bold;
+        line-height: 1.6;
+        text-align: center;
+        color: #111;
+        margin: 0;
+      }
+
+      p {
+        font-family: souvenir;
+      }
+
+      #img-caption {
+        font-size: 40px;
+        padding-top: 40px;
+      }
+
+      #main {
+        margin: 10px 10px;
+        padding: 2px;
+        border-radius: 30px;
+        background: #D6CEE7;
+      }
+
+      .page-wrapper {
+        background: #693662;
+        padding: 40px;
+        margin: 10;
+        border-radius: 15px;
+      }
+
+      .container {
+        background-color: #D6CEE7;
+        width: 80%;
+        line-space: 1.6;
+        font-size: 20px;
+      }
+
+      .center {
+        margin: auto;
+        width: 75%;
+        padding: 10px;
+        text-align: center;
+      }
+      /* Responsive layout - makes a two column-layout instead of four columns */
+      @media screen and (max-width: 800px) {
+        .column {
+          flex: 50%;
+          max-width: 50%;
+        }
+      }
+
+      /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 600px) {
+        .column {
+          flex: 100%;
+          max-width: 100%;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="main">
+      <h1 class="center font-fam" id="title">Frank Zappa</h1>
+
+      <div class="page-wrapper" id="img-div">
+        <div class="row">
+          <div class="column"></div>
+          <div class="column">
+            <img src="images/zappa-tribute.jpg" alt="Frank Zappa in 1990" id="image">
+            <img src="images/zappa-conductor.jpg" alt="Frank Zappa conducting" id="image">
+            <img src="images/zappa-ponytail.jpg" alt="Frank Zappa with pigtails" id="image">
+          </div>
+          <div class="column">
+            <img src="images/zappa-smoking.jpg" alt="Frank Zappa smoking a cigarette" id="image">
+            <img src="images/zappa-guitar.jpg" alt="Frank Zappa playing guitar" id="image">
+            <img src="images/zappa-glasses.jpg" alt="Frank Zappa with glasses" id="image">
+            <img src="images/zappa-studio.jpg" alt="Frank Zappa in home studio" id="image">
+          </div>
+          <div class="column"></div>
+        </div>
+        <h2 class="center" id="img-caption">20th Century Composer</h2>
+      </div>
+
+      <div class="container center font-fam" id="tribute-info">
+          <p>
+            Frank Zappa was a genius composer. He blended orchestral sounds
+            with R&B, Blues and Rock & Roll. After spending hours
+            writing each part, he gathered musicians to rehearse and
+            perform his music. They ran through devations of various parts
+            based on hand signals Zappa would later call during a live
+            performance. All parts were memorized by each member. If not,
+            Frank would find a way to call them out on stage.
+          </p>
+          <p>
+            He had a way of attracting high caliber musicians with successful
+            careers of their own. Ansley Dunbar (Rock drummer) left his own
+            television show in England to join the second rendition of
+            The Mothers of Invention. George Duke (Jazz keyboard) joined Frank
+            for 2 years then went on tour with Cannonball Aderly for 2 years,
+            and returned. On a documentary, George said playing with Frank was
+            "some of the best years" he had on stage.
+          </p>
+          <p>
+            Aside from pulling in talent, Frank shaped many of the alumni whom
+            lead successful music careers after working for him. Vinnie Colaiuta,
+            Steve Vai, Terry Bozzio, Adrian Belew, and Mike Keneally just to name
+            a few. There were also the incredible musicians who were key characters
+            that brought the music to life. Ruth Underwood, Bruce & Tom Fowler,
+            Napoleon Murphy Brock, Ray White, Tommy Mars and Ed Mann.
+          </p>
+          <p>
+            The journalist hyperfocused on Frank's Rock & Roll attitude, but
+            behind the scenes he was a composer with hired musicians. He spent
+            thousands of dollars on union musicians in orchestras and was disatisfied
+            with the results. Having a medium sized group of versatile, dedicated,
+            and hard working musicians enabled him to produce a high volume of content.
+          </p>
+          <p>
+            Frank Zappa was a great 21st century composer. He was inspired by Edgard
+            Varese, Johnny Guitar Watson, Igor Stravinsky, Spike Jones, cheap monster
+            movies and anything that made his brows raise. His unique sonic imprint
+            was an accumulation of his life's experiences.
+      </div>
+      <h3 class="center font-fam">
+        Learn more about Frank Zappa <a href="https://en.wikipedia.org/wiki/Frank_Zappa" target="_blank" id="tribute-link">
+        here</a>.
+        </h3>
+    </div>
+  </body>
+</html>
