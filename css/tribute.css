@@ -38,6 +38,11 @@
     font-family: souvenir;
   }
 
+  #image {
+    max-width: 500px;
+    display: block;
+  }
+  
   #img-caption {
     font-size: 40px;
     padding-top: 40px;
