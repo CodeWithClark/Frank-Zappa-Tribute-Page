@@ -4,6 +4,6 @@ It makes up the first part of my coding portfolio.
 
 You can see this project live at the following URL:
 
-https://rossclarkcoding.github.io/Frank-Zappa-Tribute-Page/
+https://codewithclark.github.io/Frank-Zappa-Tribute-Page/
 
 Enjoy!
